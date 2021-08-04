@@ -1,28 +1,26 @@
 # Ajoneuvodata
-Avoin ajoneuvodata
+Open vehicle data
 
-Näitä autoja Suomi rekisteröi 2019-2021
+These cars will be registered in Finland in 2019-2021
 
-Mitkä ovat suosituimmat mallit ja merkit ensirekisteröinneissä vuodesta 2019 alkaen helmikuuhun 2021 saakka? Mitkä ovat suosituimmat värit suosituimmilla merkeillä? Mitkä olivat suosituimmat käyttövoimat ja vaihteistot? Minkä merkin mallistossa on eniten sähköhybridejä? Mitkä ovat keskimääräiset päästöt sähköhybrideillä? Ja miten paljon päästöt ovat keskimäärin vähentyneet 1990-luvun puolivälistä alkaen?
+What are the most popular models and brands in first registrations from 2019 to February 2021? What are the most popular colors with the most popular brands? What were the most popular drives and transmissions? Which brand has the most electric hybrids in its collection? What are the average emissions of electric hybrids? And how much have emissions decreased on average since the mid-1990s?
 
-Näihin kysymyksiin hain vastauksia, kun kävin läpi ajoneuvojen avointa datan 5.13 aineistoa Traficomin sivuilta. Ajoneuvojen avoin data sisältää kaikkien liikennekäytössä olevien ajoneuvojen rekisteröinti-, hyväksyntä- ja teknisiä tietoja Traficomin ylläpitämästä liikenneasioiden rekisteristä.
+I was looking for answers to these questions when I went through the open vehicle 5.13 data on Traficom’s website. The open vehicle data contains the registration, approval and technical information of all vehicles in traffic from the traffic register maintained by Traficom.
 
-Aineisto löytyy osoitteesta: https://www.traficom.fi/fi/ajankohtaista/avoin-data
+The material can be found at: https://www.traficom.fi/fi/ajanohtaista/avoin-data
 
-Aineistossa oli rivejä yhteensä 5 121 148 kpl ja se oli julkaistu 3.2.2021. Aineistosta poimin datan vain henkilöautoista (ajoneuvoluokat M1 ja M1G) ja rajasin sitä vielä vuoden 2019 alusta lähtien ensirekisteröityihin. Aineistoa käsittelin Pythonilla. Artikkelin lopussa on linkki Python-koodiin.
+The material had a total of 5,121,148 lines and was published on 3 February 2021. I extracted the data from the data only for passenger cars (vehicle categories M1 and M1G) and limited it to the first registered from the beginning of 2019. I processed the material with Python. At the end of the article is a link to the Python code.
 
-Mitkä ovat suosituimmat merkit? Kärjessä keikkuvat Toyota, Volvo ja Mercedez-Benz.
+What are the most popular brands? Toyota, Volvo and Mercedez-Benz are at the forefront.
 
-Mitkä ovat taas suosituimmat mallit? Kärkikolmikon muodostavat Nissanin, Toyotan ja Skodan mallit.
+What are the most popular models again? The top three are made up of Nissan, Toyota and Skoda models.
 
-Mitkä ovat suosituimmat värit ensirekisteröinnissä? Suosituimmat värit suosituimmilla merkeillä vaihtelivat. Harmaa oli suosituin väri Skodalla ja Suzukilla. Mustaa suosivat eniten Audi-, BMW-, Mercedes-Benz- ja Volvo-kuskit. Punaisesta tykkäsivät eniten Mazdalla ajavat. Valkoinen oli suosituin usealla merkillä.
+What are the most popular colors for first registration? The most popular colors with the most popular brands varied. Gray was the most popular color for Skoda and Suzuki. Black is preferred by Audi, BMW, Mercedes-Benz and Volvo drivers. Red riders liked Red the most. White was the most popular on several brands.
 
-Mitkä ovat suosituimmat käyttövoimat? Huhut polttomoottorin kuolemasta näyttävät olevan vahvasti liioiteltuja. Bensiini on vahvasti paalupaikalla ja diesel on kakkosena. Kaksi sadasta ensirekisteröinnistä tehtiin sähköteknologialla.
+What are the most popular driving forces? Rumors of an internal combustion engine death seem to be strongly exaggerated. Gasoline is strongly in the pole position and diesel is second. Two out of 100 initial registrations were done using electrical technology.
 
-Mitkä ovat suosituimmat vaihteistot? Kaksi kolmesta valitsi automaatin.
+What are the most popular gearboxes? Two of the three chose the vending machine.
 
-Kiinnostavaa oli tietää myös, minkä merkin mallistossa on eniten sähköhybridejä? Kärjessä ovat Toyota, Mitsubishi ja Volvo. Ensirekisteröityjen sähköhybridien hiilidioksidipäästöt ovat keskimäärin noin 98 grammaa.
+It was also interesting to know which brand's collection has the most electric hybrids? At the forefront are Toyota, Mitsubishi and Volvo. The average CO2 emissions of newly registered electric hybrids are about 98 grams.
 
-Autojen polttomoottoriteknologian kehittyminen näkyy vahvasti hiilidioksidipäästöjen kehityksessä. Päästöt ovat vähentyneet rajusti 1990-luvun puolivälistä alkaen. Vielä 1990-luvun puolivälissä päästöt olivat noin 220, kun nyt ne ovat keskimäärin noin 130.
-
-Kuvaus koodista on nähtävissä github-profiilissani: https://github.com/markok20/Ajoneuvodata
+The development of internal combustion engine technology in cars is strongly reflected in the development of CO2 emissions. Emissions have fallen sharply since the mid-1990s. As late as the mid-1990s, emissions were around 220, up from now averaging around 130.
